@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div p{
+            background-color: green;
+            color: white;
+        }
+
+        div > p{
+            background-color: blue;
+            color: yellow;
+        }
+
+        div + h2{
+            text-align: center;
+            color: purple;
+        }
+
+        div ~ p{
+            text-align: center;
+            color: orangered;
+            font-size: 45px;
+        }
+    </style>
+</head>
+<body>
+  <header>
+<h2>Combinadores CSS</h2>
+</header >
+<p>Aula de Desenvolvimento Web</p>
+<div id="a">
+<pre>
+    <p>Parágrafo descendente</p>
+</pre>
+<p>Parágrafo filho</p>
+</div>
+<h2>Segunda parte do Arquivo HTML</h2>
+<p>Parágrafo da segunda parte</p> <h2>Terceira parte do Arquivo HTML</h2>
+<p>Parágrafo da terceira parte</p>
+
+
+
+</body>
+</html>

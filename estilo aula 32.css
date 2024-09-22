@@ -1,0 +1,37 @@
+.conteiner-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: orange;
+    padding: 10 px;
+    column-gap: 5px;
+}
+
+
+.conteiner-grid > header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-column: 1/4;
+    background-color: orange;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+#hc{
+    grid-area: 2 / 2 / span 3/span 1;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+
+#rdp{
+    grid-area: 5 / 2 / span 1 / span 2;
+    background-color: green;
+    border: 6px solid purple;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    color: yellow;
+}
